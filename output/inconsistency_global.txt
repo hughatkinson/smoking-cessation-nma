@@ -1,0 +1,41 @@
+Q statistics to assess homogeneity / consistency
+
+                     Q df  p-value
+Total           202.62 23 < 0.0001
+Within designs  187.40 16 < 0.0001
+Between designs  15.22  7   0.0333
+
+Design-specific decomposition of within-designs Q statistic
+
+                                   Design      Q df  p-value
+   No intervention:Individual counselling 182.72 13 < 0.0001
+ Group counselling:Individual counselling   1.74  1   0.1868
+                No intervention:Self-help   2.94  2   0.2299
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from 0.0333)
+
+                                          Detached design     Q df
+ No intervention:Group counselling:Individual counselling  7.46  5
+                        No intervention:Group counselling 11.65  6
+                         Individual counselling:Self-help 13.02  6
+                              Group counselling:Self-help 13.51  6
+                 Group counselling:Individual counselling 13.90  6
+                                No intervention:Self-help 14.28  6
+                   No intervention:Individual counselling 15.09  6
+       Group counselling:Individual counselling:Self-help 14.05  5
+ p-value
+  0.1883
+  0.0702
+  0.0427
+  0.0357
+  0.0307
+  0.0267
+  0.0196
+  0.0153
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 4.66  7  0.7009     0.8131      0.6611
